@@ -1,0 +1,17 @@
+{
+    "id": "1235tddssrf8-5551",
+    "name": "Fill Coulson",
+    "accounts": [
+        {
+            "number": "45123481654654",
+            "currency": "RUB",
+            "bank": "Otkrytie"
+        },
+        {
+            "number": "45123481654651",
+            "currency": "BYN",
+            "bank": "BSPB"
+        }
+    ],
+    "active": true
+}
