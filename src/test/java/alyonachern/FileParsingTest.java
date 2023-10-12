@@ -18,7 +18,7 @@ public class FileParsingTest {
     ClassLoader cl = FileParsingTest.class.getClassLoader();
 
     @Test
-    public void ReadZipFileTest() throws Exception {
+    public void readZipFileTest() throws Exception {
         try (ZipInputStream zip = new ZipInputStream(cl.getResourceAsStream("archive.zip"))) {
             ZipEntry entry;
             while ((entry = zip.getNextEntry()) != null) {

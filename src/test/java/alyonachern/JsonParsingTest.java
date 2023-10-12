@@ -13,7 +13,7 @@ public class JsonParsingTest {
     ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
-    public void JsonReadTest() throws Exception {
+    public void jsonReadTest() throws Exception {
 
         File file = new File("src/test/resources/info.json");
         JsonModel json = objectMapper.readValue(file, JsonModel.class);
